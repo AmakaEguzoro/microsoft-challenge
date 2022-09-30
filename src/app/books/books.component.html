@@ -1,0 +1,36 @@
+<div class="p-5">
+  <h3>Books</h3>
+
+  <input
+    class="form-control"
+    type="text"
+    placeholder="Search by ID, Name,...."
+    [(ngModel)]="searchText"
+  />
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">BOOK ID</th>
+        <th scope="col">BOOK TITLE</th>
+        <th scope="col">EDITION</th>
+        <th scope="col">AUTHOR</th>
+        <th scope="col">PUBLISHER</th>
+        <th scope="col">COST</th>
+        <th scope="col">COPIES</th>
+        <th scope="col">REMARKS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books | search: searchText">
+        <td>{{ book.book_ID }}</td>
+        <td>{{ book.book_title }}</td>
+        <td>{{ book.book_edition }}</td>
+        <td>{{ book.book_author }}</td>
+        <td>{{ book.book_publisher }}</td>
+        <td>{{ book.book_costs }}</td>
+        <td>{{ book.book_copies }}</td>
+        <td>{{ book.book_remarks }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

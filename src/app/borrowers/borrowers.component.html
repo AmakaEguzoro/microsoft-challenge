@@ -1,0 +1,31 @@
+<div class="p-5">
+  <h3>Borrowers</h3>
+  <input
+    class="form-control"
+    type="text"
+    placeholder="Search by Borrower's ID, Date...."
+    [(ngModel)]="searchText"
+  />
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">BORROWER'S ID</th>
+        <th scope="col">MEMBER ID</th>
+        <th scope="col">STAFF ID</th>
+        <th scope="col">DATE BORROWED</th>
+        <th scope="col">DUE RETURN DATE</th>
+        <th scope="col">RETURNED</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let borrower of borrowers | search: searchText">
+        <td>{{ borrower.borrowers_ID }}</td>
+        <td>{{ borrower.member_ID }}</td>
+        <td>{{ borrower.staff_ID }}</td>
+        <td>{{ borrower.borrowers_dateborrowed }}</td>
+        <td>{{ borrower.borrowers_duereturndate }}</td>
+        <td><button class="btn btn-success">YES</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

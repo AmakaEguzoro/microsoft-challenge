@@ -1,0 +1,52 @@
+[
+  {
+    "staff_ID": 101,
+    "staff_firstname": "Amaka",
+    "staff_lastname": "Omolola",
+    "staff_mobile": "08137336899",
+    "staff_email": "sommy@gmail.com",
+    "staff_password": "rdg******ghtj",
+    "staff_authsalt": "APPlepass",
+    "staff_category": "Senior Staff"
+  },
+  {
+    "staff_ID": 230,
+    "staff_firstname": "Phillip",
+    "staff_lastname": "Eze",
+    "staff_mobile": "081374586899",
+    "staff_email": "sommy@gmail.com",
+    "staff_password": "rdg******ghtj",
+    "staff_authsalt": "APPlepass",
+    "staff_category": "Senior Staff"
+  },
+  {
+    "staff_ID": 200,
+    "staff_firstname": "Amaka",
+    "staff_lastname": "Omolola",
+    "staff_mobile": "08137336899",
+    "staff_email": "sommy@gmail.com",
+    "staff_password": "rdg******ghtj",
+    "staff_authsalt": "APPlepass",
+    "staff_category": "Senior Staff"
+  },
+  {
+    "staff_ID": 200,
+    "staff_firstname": "Amaka",
+    "staff_lastname": "Omolola",
+    "staff_mobile": "08137336899",
+    "staff_email": "sommy@gmail.com",
+    "staff_password": "rdg******ghtj",
+    "staff_authsalt": "APPlepass",
+    "staff_category": "Senior Staff"
+  },
+  {
+    "staff_ID": 200,
+    "staff_firstname": "Amaka",
+    "staff_lastname": "Omolola",
+    "staff_mobile": "08137336899",
+    "staff_email": "sommy@gmail.com",
+    "staff_password": "rdg******ghtj",
+    "staff_authsalt": "APPlepass",
+    "staff_category": "Senior Staff"
+  }
+]

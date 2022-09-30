@@ -1,0 +1,35 @@
+<div class="p-5">
+  <h3>Staff</h3>
+  <input
+    class="form-control"
+    type="text"
+    placeholder="Search by ID, Name,...."
+    [(ngModel)]="searchText"
+  />
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">STAFF ID</th>
+        <th scope="col">FIRSTNAME</th>
+        <th scope="col">LASTNAME</th>
+        <th scope="col">MOBILE NUMBER</th>
+        <th scope="col">EMAIL ADDRESS</th>
+        <th scope="col">PASSWORD</th>
+        <th scope="col">PASSWORD SALT</th>
+        <th scope="col">STAFF CATEGORY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let staff of staffs | search: searchText">
+        <td>{{ staff.staff_ID }}</td>
+        <td>{{ staff.staff_firstname }}</td>
+        <td>{{ staff.staff_lastname }}</td>
+        <td>{{ staff.staff_mobile }}</td>
+        <td>{{ staff.staff_email }}</td>
+        <td>{{ staff.staff_password }}</td>
+        <td>{{ staff.staff_authsalt }}</td>
+        <td>{{ staff.staff_category }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

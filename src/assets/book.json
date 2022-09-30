@@ -1,0 +1,43 @@
+[
+  {
+    "book_ID": 10000,
+    "book_title": "Half of a yellow sun",
+    "book_edition": "2nd",
+    "book_author": "Chimamanda",
+    "book_publisher": "University Press",
+    "book_copies": 6,
+    "book_costs": 3500,
+    "book_remarks": "Great book by a great author"
+  },
+
+  {
+    "book_ID": 10000,
+    "book_title": "Love in colors",
+    "book_edition": "2nd",
+    "book_author": "Chimamanda",
+    "book_publisher": "University Press",
+    "book_copies": 6,
+    "book_costs": 3500,
+    "book_remarks": "Great book by a great author"
+  },
+  {
+    "book_ID": 10000,
+    "book_title": "Ogadinmma",
+    "book_edition": "2nd",
+    "book_author": "Chimamanda",
+    "book_publisher": "University Press",
+    "book_copies": 6,
+    "book_costs": 3500,
+    "book_remarks": "Great book by a great author"
+  },
+  {
+    "book_ID": 10000,
+    "book_title": "Half of a yellow sun",
+    "book_edition": "2nd",
+    "book_author": "Chimamanda",
+    "book_publisher": "University Press",
+    "book_copies": 6,
+    "book_costs": 3500,
+    "book_remarks": "Great book by a great author"
+  }
+]
