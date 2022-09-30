@@ -25,7 +25,7 @@ export class ApiService {
   }
 
   updateBorrower(data: any) {
-    return this.http.post<any>('http://localhost:3000/posts', data).pipe(
+    return this.http.put<any>('http://localhost:3000/posts', data).pipe(
       map((res: any) => {
         return res;
       })
@@ -33,7 +33,7 @@ export class ApiService {
   }
 
   deleteBorrower(data: any) {
-    return this.http.post<any>('http://localhost:3000/posts', data).pipe(
+    return this.http.delete<any>('http://localhost:3000/posts', data).pipe(
       map((res: any) => {
         return res;
       })
